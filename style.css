@@ -137,6 +137,8 @@ hr{
 }
 
 
+
+=======
 .slide-container{
     display: flex;
     overflow-x: auto;
@@ -369,7 +371,25 @@ hr{
 .footer {
 flex-wrap: wrap;
 
+
+
+
+.footer-principal {
+    background-color: #132235;
+    max-width: 100%;
+    
+    
 }
+
+.contato__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
 
 .intro {
     font-weight: bold;
@@ -377,6 +397,8 @@ flex-wrap: wrap;
     text-align: center;
     margin: 0 auto;
     padding: 25px 0;
+
+=======
 
 }
 
@@ -482,5 +504,6 @@ flex-wrap: wrap;
  
 
 }
+
 
 }

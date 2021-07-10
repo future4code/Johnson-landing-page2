@@ -1,6 +1,49 @@
+hr{
+    border:none;
+    background-color: #6ddad3;
+    height: 2px;
+    width: 140px;
+    margin: 20px auto;
+}
+
+/*Header/**********/
+
+.menu-bg {
+    background-color: #132235;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav__link {
+    padding: 20px 10px;
+}
+
+
+
+/*Footer/*******************/
+
 .footer {
 flex-wrap: wrap;
 
+}
 
-
+.intro {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0;
 }

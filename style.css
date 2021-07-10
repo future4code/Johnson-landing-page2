@@ -1,12 +1,49 @@
+/**********************************/
+/* ESTILOS GERAIS
+/**********************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+
 hr{
     border:none;
     background-color: #6ddad3;
     height: 2px;
     width: 140px;
-    margin: 20px auto;
+    margin: 20px auto;  
+    
 }
 
-/*Header/**********/
+
+/**********************************/
+/* HEADER
+/**********************************/
+.intro {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0;
+   
+
+}
 
 .menu-bg {
     background-color: #132235;
@@ -30,45 +67,9 @@ hr{
     padding: 20px 10px;
 }
 
-
-/**********************************/
-/* ESTILOS GERAIS
-/**********************************/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-a,
-a:hover,
-a:active,
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
-
-/**********************************/
-/* HEADER
-/**********************************/
-
 /**********************************/
 /* MAIN
 /**********************************/
-/* 
-hr{
-    border: none;
-    border-radius: 2px;
-    background-color: black ;
-    height: 3px;
-    width: 100px;
-    margin: 20px auto;
-} */
 
 .main{
     width: 100%;
@@ -88,7 +89,6 @@ hr{
 .section__titulo{
     font-size: clamp(2.25em, 1em + 3vw, 3.25em);
     color: blue;
-    /* background-color: yellow; */
     margin-bottom: 14px;
     text-align: center;
    
@@ -121,7 +121,6 @@ hr{
     font-size: clamp(20px, 1em + 1vw, 30px);
     margin-left: 10px;
     font-family: Nunito;
-    /* font-weight: bold; */
     color: black;
     text-align: center;
     
@@ -133,12 +132,10 @@ hr{
     height: 500px;
     margin: 0 auto;
    
-    
 }
 
 
 
-=======
 .slide-container{
     display: flex;
     overflow-x: auto;
@@ -147,9 +144,8 @@ hr{
     margin: 0 auto; 
     border-radius: 3px;
     box-shadow: 4px 4px 4px darkgrey;
-    
-
 }
+
 
 .slide-container::-webkit-scrollbar{
     width: 7px;
@@ -179,7 +175,6 @@ hr{
 }
 
 .slide-container > .slide1:nth-child(2){
-
     flex: none;
     width: 60%;
     height: 100%;
@@ -192,7 +187,6 @@ hr{
     align-items: center;
     justify-content: flex-end;
    
-
 }
 
 .slide-container > .slide1:nth-child(3){
@@ -339,7 +333,7 @@ hr{
 
 .cases-c .case .case-img img{
     max-width: 100%;
-    /* border-radius: 4px; */
+  
     
 }
 
@@ -361,18 +355,12 @@ hr{
 }
 
 
-
-
-
-
-/**********************************/
+/* *********************************/
 /* FOOTER
 /**********************************/
 .footer {
 flex-wrap: wrap;
-
-
-
+}
 
 .footer-principal {
     background-color: #132235;
@@ -388,19 +376,10 @@ flex-wrap: wrap;
     max-width: 960px;
     margin: 0 auto;
     flex-wrap: wrap;
+    background-color: black;
 }
 
 
-.intro {
-    font-weight: bold;
-    font-size: 3rem;
-    text-align: center;
-    margin: 0 auto;
-    padding: 25px 0;
-
-=======
-
-}
 
 /**********************************/
 /* BREAKPOINTS RESPONSIVIDADE
@@ -501,9 +480,7 @@ flex-wrap: wrap;
  
     .slide-btn{
         padding: 5px 6px;
- 
 
-}
-
+  }
 
 }

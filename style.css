@@ -416,6 +416,7 @@ height: auto;
     flex-direction: column;
     padding-top: 15px;
     flex-wrap: wrap;
+
     margin-bottom: 10px;
   
 }
@@ -423,6 +424,7 @@ height: auto;
 
 .texto-redes {
     margin-bottom: 5px;
+    color: white;
 }
 
 .footer__redes {
@@ -436,10 +438,27 @@ height: auto;
 .footer__textos {
     flex-direction: column;
     padding: 15px;
-   
+    padding: 20px;
+    color: white;
     
 }
 
+.letra_icone_whatsapp {
+  color: white;
+}
+
+.letra_icone_email {
+  color: white;
+}
+
+.textos {
+  color: white;
+}
+
+
+.textos_onde_estamos {
+  color: white;
+}
 
 /**********************************/
 /* BREAKPOINTS RESPONSIVIDADE

@@ -27,19 +27,27 @@ hr {
   margin: 20px auto;
 }
 
+
+body {
+    background-color: #181a1b;
+}
+
 /**********************************/
 /* HEADER
 /**********************************/
 .intro {
   font-weight: bold;
-  font-size: 3rem;
-  text-align: center;
-  margin: 0 auto;
-  padding: 25px 0;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0;
+    background-color: #181a1b;
+    color: white;
 }
 
 .menu-bg {
-  background-color: #132235;
+    background-color: #132235;
+    padding-bottom: 10px;
 }
 
 .menu {
@@ -51,13 +59,23 @@ hr {
   flex-wrap: wrap;
 }
 
+
 .nav__list {
-  display: flex;
-  flex-wrap: wrap;
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8px;
 }
 
 .nav__link {
-  padding: 20px 10px;
+    padding: 20px 10px;
+    color: white;
+}
+
+.nav__link:hover {
+    color:#6ddad3
+
 }
 
 /**********************************/
@@ -376,24 +394,52 @@ hr {
 /* *********************************/
 /* FOOTER
 /**********************************/
-.footer {
-  flex-wrap: wrap;
+
+footer {
+
+height: auto;
+
+
 }
 
 .footer-principal {
-  background-color: #132235;
-  max-width: 100%;
+    background-color: #132235;
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px;
+    flex-wrap: wrap;
+    
 }
 
 .contato__footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 960px;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    flex-wrap: wrap;
+    
+
 }
+
+
+.texto-redes {
+    margin-bottom: 5px;
+}
+
+.footer__redes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    
+}
+
+.footer__textos {
+    flex-direction: column;
+    padding: 20px;
+   
+    
+}
+
 
 /**********************************/
 /* BREAKPOINTS RESPONSIVIDADE
@@ -467,7 +513,17 @@ hr {
     font-size: 12px;
   }
 
+  
   .slide-btn {
     padding: 5px 6px;
   }
+
+
+.footer-principal {
+    display: flex;
+    flex-direction: column;
 }
+ 
+
+}
+

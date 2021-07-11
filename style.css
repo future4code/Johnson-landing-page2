@@ -93,12 +93,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 452px;
 }
 
 .section__titulo {
   font-size: clamp(2.25em, 1em + 3vw, 3.25em);
   color: blue;
-  margin-bottom: 14px;
   text-align: center;
 }
 
@@ -416,8 +416,8 @@ height: auto;
     flex-direction: column;
     padding-top: 15px;
     flex-wrap: wrap;
-    
-
+    margin-bottom: 10px;
+  
 }
 
 
@@ -435,7 +435,7 @@ height: auto;
 
 .footer__textos {
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
    
     
 }
@@ -522,6 +522,7 @@ height: auto;
 .footer-principal {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
  
 

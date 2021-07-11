@@ -36,16 +36,7 @@
      - FAQ/Perguntas Frequentes (footer)
      - Promoções (?)
 
-
-<h3> 5) PADRÕES: A definir </h3>
-
-    - CSS
-     1) Paleta de cores:
-     2) Tipos de fonte:
-     3) Tamanhos da fonte:
-     4) Copy: 
-
-<h3> 6) FLUXO DE TRABALHO NO GITHUB </h3>
+<h3> 5) FLUXO DE TRABALHO NO GITHUB </h3>
 
     - TODA NOVA BRANCH DEVE TER O SEU:
     1) PUSH
@@ -53,3 +44,22 @@
     3) MARCAR A EQUIPE PARA REVISÃO
     4) APÓS O PR APROVADO, TODOS DEVEM REALIZAR O PULL NA BRANCH MASTER
 
+ ****************************************************************************************************************
+
+ <h1> F4Life </h1>
+
+ <h3> Link do Surge: </h3>
+
+      https://quick-clock.surge.sh/
+
+ <h3> Requisitos que estão funcionais: </h3>
+
+     - Menus (ancoragem)
+     - Redes sociais
+     - Responsividade
+
+  <h3> Requisitos que não estão funcionais:</h3>
+      
+      -Botões do seção Produtos
+      -FAQ e Onde Estamos
+      -Email e Whatssap

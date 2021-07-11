@@ -370,26 +370,54 @@ body {
 /* *********************************/
 /* FOOTER
 /**********************************/
-.footer {
-flex-wrap: wrap;
+
+footer {
+
+height: auto;
+
+
 }
 
 .footer-principal {
     background-color: #132235;
-    max-width: 100%;
-    
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px;
+    flex-wrap: wrap;
     
 }
 
 .contato__footer {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 960px;
-    margin: 0 auto;
+    flex-direction: column;
+    padding-top: 15px;
     flex-wrap: wrap;
-    background-color: black;
+    
+
 }
+
+
+.texto-redes {
+    margin-bottom: 5px;
+}
+
+.footer__redes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    
+}
+
+.footer__textos {
+    flex-direction: column;
+    padding: 20px;
+   
+    
+}
+
+
+
 
 
 
@@ -494,5 +522,11 @@ flex-wrap: wrap;
         padding: 5px 6px;
 
   }
+
+.footer-principal {
+    display: flex;
+    flex-direction: column;
+}
+ 
 
 }
